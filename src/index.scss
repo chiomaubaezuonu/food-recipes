@@ -18,6 +18,56 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-.navbar{
+
+.navbar {
   display: flex;
+  height: 10%;
+  background-color: greenyellow;
+
+  .right-nav {
+    width: 100%;
+    padding: 1.3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+
+
+  }
+
+  .nav-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6rem;
+    background-color: rgb(255, 0, 136);
+  }
+}
+
+
+.sidebar {
+  width: 13%;
+  //background-color: var(--background-color);
+  color: white;
+  padding-top: 2rem;
+  // padding-bottom: 12rem;
+  display: flex;
+}
+
+.hero {
+  background-color: rgb(239, 148, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15.4rem 0;
+
+  .btn {
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgb(110, 35, 110);
+    font-size: 1rem;
+    color: rgb(239, 82, 239);
+    margin: auto;
+    cursor: pointer;
+  }
 }
