@@ -8,11 +8,11 @@ const Navbar = () => {
     <div className="navbar">
       <Sidebar />
       <div className="right-nav">
-        <p style={{ color: "green" }}>F<span style={{ color: "orange" }}>ood</span>bank</p>
+        <p style={{ color: "green", fontSize: "2rem" }}>F<span style={{ color: "orange" }}>ood</span>bank</p>
         <div className="nav-icons">
-          <FontAwesomeIcon icon={faShare} />
-          <FontAwesomeIcon icon={faSearch} />
-          <FontAwesomeIcon icon={faInfoCircle} />
+          <a href="#!" className="nav-icon--link"> <FontAwesomeIcon className="icon" icon={faShare} /></a>
+          <a href="#!" className="nav-icon--link"> <FontAwesomeIcon icon={faSearch} /></a>
+          <a href="#!" className="nav-icon--link"> <FontAwesomeIcon icon={faInfoCircle} /></a>
         </div>
       </div>
     </div>

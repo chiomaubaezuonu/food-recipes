@@ -4,11 +4,7 @@ import { faBars, faCode } from "@fortawesome/free-solid-svg-icons"
 
 const Sidebar = () => {
   return (
-    <div className='sidebar'>
-      <FontAwesomeIcon icon={faBars} />
-      <FontAwesomeIcon icon={faCode} />
-      lkjhcgfx
-    </div>
+   <div></div>
   )
 }
 
