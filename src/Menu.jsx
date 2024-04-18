@@ -8,8 +8,8 @@ const Menu = () => {
             {data.map((item) => {
                 return (
                     <div className='food-card'>
+                       
                         <h4>{item.food}</h4>
-                        <p>{item.img}</p>
                     </div>
                 )
             })}

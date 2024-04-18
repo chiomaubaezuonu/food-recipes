@@ -17,17 +17,41 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 .navbar {
   display: flex;
   height: 4rem;
-  background-color: rgb(50, 4, 50);
+  position: fixed;
+  z-index: 8;
+  // background-color: rgb(50, 4, 50);
   justify-content: space-between;
+  box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
   align-items: center;
 
+  .logo {
+    cursor: pointer;
+    font-size: 2rem;
+    color: purple;
+
+    &:hover {
+      color: green;
+      text-decoration: underline;
+
+      &::before {
+        transform: scaleX(1);
+      }
+    }
+
+    &.active {
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+  }
+
   .right-nav {
-    width: 80%;
+    width: 100%;
     padding-right: 0rem 6rem;
     display: flex;
     justify-content: space-between;
@@ -43,12 +67,20 @@ body {
   .nav-icon--link {
     padding-right: 1.7rem;
     padding-left: 1.7rem;
+
+    &:hover {
+      color: green;
+      text-decoration: underline;
+
+      &::before {
+        transform: scaleX(1);
+      }
+    }
+
   }
+
 }
 
-.icon {
-  color: aqua;
-}
 
 .sidebar {
   width: 10%;
@@ -57,23 +89,54 @@ body {
   display: flex;
   align-items: center;
   padding: 0.5rem 6rem;
+
+  .hamburger {
+    color: purple;
+    cursor: pointer;
+
+    &:hover {
+      color: green;
+    }
+  }
 }
 
 .hero {
-  background-color: rgb(239, 148, 239);
+  // background-color: rgb(65, 168, 96);
+  // padding-top: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15.4rem 0;
+  padding: 10.4rem 0;
+
+  .title {
+    font-size: 2.5rem;
+  }
+img{
+  width: 20rem;
+  border-radius: 0.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+  .quote {
+    color: rgb(110, 35, 110);
+    padding: 1rem 0rem;
+    font-size: 1.8rem;
+
+    svg {
+      color: rgb(54, 8, 54);
+      padding: 0;
+      width: 1rem;
+    }
+  }
 
   .btn {
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 2.7rem;
     border-radius: 0.3rem;
     border: none;
     background-color: rgb(110, 35, 110);
-    font-size: 1rem;
-    color: rgb(239, 82, 239);
+    font-size: 1.2rem;
+    color: rgb(249, 113, 249);
     margin: auto;
     cursor: pointer;
   }
@@ -85,9 +148,14 @@ body {
   padding: 1rem 4rem;
   flex-wrap: wrap;
   background-color: pink;
+  top: 10rem;
 }
 
 .food-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(110, 63, 197);
   width: 25vw;
   height: 25vw;

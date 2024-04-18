@@ -1,8 +1,9 @@
 const data = [
     {
         id: 1,
+        img: "./images/jollof.jpeg",
         food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        num:88
     },
     {
         id: 2,
