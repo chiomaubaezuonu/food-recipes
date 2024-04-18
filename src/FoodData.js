@@ -3,27 +3,27 @@ const data = [
         id: 1,
         img: "./images/jollof.jpeg",
         food: "Jollof Rice",
-        num:88
+        Recipe: ""
     },
     {
         id: 2,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/banga.jpeg",
+        food: "Banga Stew",
     },
     {
         id: 3,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/nsala.jpg",
+        food: "Nsala Soup",
     },
     {
         id: 4,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/ofada-stew.jpg",
+        food: "Ofada Stew",
     },
     {
         id: 5,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/plantain-fritata.jpg",
+        food: "Plantain Fritata",
     },
     {
         id: 6,

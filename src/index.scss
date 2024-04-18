@@ -112,12 +112,14 @@ body {
   .title {
     font-size: 2.5rem;
   }
-img{
-  width: 20rem;
-  border-radius: 0.6rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
+
+  img {
+    width: 14rem;
+    border-radius: 0.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   .quote {
     color: rgb(110, 35, 110);
     padding: 1rem 0rem;
@@ -156,10 +158,16 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(110, 63, 197);
+  // background-color: rgb(110, 63, 197);
   width: 25vw;
   height: 25vw;
   margin: 1rem 2rem;
+
+  img {
+    width: 28vw;
+    height: 24vw;
+    object-fit: cover;
+  }
 }
 
 svg {
