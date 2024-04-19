@@ -174,3 +174,20 @@ svg {
   width: 8em;
   height: 4rem;
 }
+
+.footer {
+  background-color: rgb(46, 5, 46);
+  padding: 1.8rem;
+
+  &:nth-child(1) {
+    color: #0063f7;
+  }
+
+  &:nth-child(2) {
+    color: #13b4ff;
+  }
+
+  &:nth-child(3) {
+    color: #ff0056;
+  }
+}
