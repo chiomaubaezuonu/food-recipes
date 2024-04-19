@@ -4,7 +4,7 @@ import data from "./FoodData"
 const Menu = () => {
     console.log(data)
     return (
-        <div className='food-recipes-container'>
+        <div className='food-recipes-container' id='menu'>
             {data.map((item) => {
                 return (
                     <div className='food-card'>

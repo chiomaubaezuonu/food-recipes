@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 
@@ -11,7 +11,7 @@ const Hero = () => {
             <p className='quote'>
                 <FontAwesomeIcon icon={faQuoteLeft} /> One cannot think well, love well, sleep well, if one has not dined well.
             </p>
-            <a href="#Menu" //target='_blank' 
+            <a href="#menu" //target='_blank' 
             > <button className='btn'>Explore!!</button></a>
             <div className="about-section" id='about'>
                 <p className='about-title'>ABOUT Oma's Foodbank</p>
