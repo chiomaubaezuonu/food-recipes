@@ -92,6 +92,22 @@ body {
 
 }
 
+.share-to-container {
+  background-color: rgba(240, 219, 240, 0.4);
+  width: 20rem;
+  margin-top: 6rem;
+  margin-right: 1rem;
+
+  .close-share-modal {
+    font-size: 2rem;
+    position: fixed;
+    right: 0;
+    margin-right: 2rem;
+    cursor: pointer;
+    color: rgb(197, 174, 197);
+    align-items: flex-end;
+  }
+}
 
 .sidebar {
   width: 10%;
@@ -207,6 +223,7 @@ body {
 }
 
 .food-card {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,6 +271,7 @@ svg {
     &:nth-child(2) {
       color: #13b4ff;
     }
+
     &:nth-child(3) {
       color: #0d0d9d;
     }
