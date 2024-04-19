@@ -14,7 +14,7 @@ import {
 } from "react-share";
 
 const Navbar = () => {
-  const shareUrl = window.location.href //fetches the current url of page
+  const shareUrl = "https://haven-foodbank.netlify.app/"//fetches the current url of page
   const [shareTo, setShareTo] = useState(false)
 
   return (
