@@ -11,9 +11,9 @@ const Hero = () => {
             <p className='quote'>
                 <FontAwesomeIcon icon={faQuoteLeft} /> One cannot think well, love well, sleep well, if one has not dined well.
             </p>
-            <a href="#Menu" target='_blank'> <button className='btn'>Explore!!</button></a>
+            <a href="#Menu" //target='_blank' 
+            > <button className='btn'>Explore!!</button></a>
         </div>
-        // </div>
     )
 }
 

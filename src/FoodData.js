@@ -7,7 +7,7 @@ const data = [
     },
     {
         id: 2,
-        img: "./images/banga.jpeg",
+        img: "./images/banga-stew.png",
         food: "Banga Stew",
     },
     {
@@ -27,28 +27,38 @@ const data = [
     },
     {
         id: 6,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/nkwobi.jpeg",
+        food: "Nkwobi",
     },
     {
         id: 7,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/burger.jpg",
+        food: "Burger",
     },
     {
         id: 8,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+        img: "./images/cake.jpeg",
+        food: "Cake",
     },
     {
         id: 9,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?",
+       img: "./images/egg-sauce.jpg",
+        food: "Yam and Egg Sauce",
     },
     {
         id: 10,
-        food: "Jollof Rice",
-        img: "Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Et tenetur sunt velit veniam id vel culpa quidem aut! Accusantium, vel?"
-    }
+        img: "./images/sushi.jpg",
+        food: "Sushi",
+    },
+    {
+        id: 11,
+       img: "./images/yam-porridge.jpeg",
+        food: "Yam-porridge",
+    },
+    {
+        id: 12,
+       img: "./images/amala-ewedu.png",
+        food: "Amala and Ewedu",
+    },
 ]
 export default data;
