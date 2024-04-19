@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         // <div style={{background:"red", height:"90%"}}>
         <div className='hero'>
-            <h2 className='title' style={{ color: "purple" }}>Oma's F<span style={{ color: "orange" }}>ood</span>bank</h2>
+            <h2 className='title'  style={{ color: "purple" }}>Haven F<span style={{ color: "orange" }}>ood</span>bank</h2>
             <img src="/images/hero-img.jpg" alt='food' />
             <p className='quote'>
                 <FontAwesomeIcon icon={faQuoteLeft} /> One cannot think well, love well, sleep well, if one has not dined well.
@@ -14,7 +14,7 @@ const Hero = () => {
             <a href="#menu" //target='_blank' 
             > <button className='btn'>Explore!!</button></a>
             <div className="about-section" id='about'>
-                <p className='about-title'>ABOUT Oma's Foodbank</p>
+                <p className='about-title'>ABOUT Haven Foodbank</p>
                 <h3 className='about-subtitle'>Our mission is to be the smartest
                     and most helpful food platform
                     in existence</h3>
