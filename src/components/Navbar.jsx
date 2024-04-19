@@ -10,9 +10,9 @@ const Navbar = () => {
       <div className="right-nav">
         <p className="logo">F<span style={{ color: "orange" }}>ood</span>bank</p>
         <div className="nav-icons">
-          <a href="#!" className="nav-icon--link"> <FontAwesomeIcon className="icon" icon={faShare} /></a>
-          <a href="#!" className="nav-icon--link"> <FontAwesomeIcon icon={faSearch} /></a>
-          <a href="#!" className="nav-icon--link"> <FontAwesomeIcon icon={faInfoCircle} /></a>
+          <a href="#!" className="nav-icon-link"> <FontAwesomeIcon className="icon" icon={faShare} /></a>
+          <a href="#!" className="nav-icon-link"> <FontAwesomeIcon icon={faSearch} /></a>
+          <a href="#about" className="nav-icon-link"> <FontAwesomeIcon icon={faInfoCircle} /></a>
         </div>
       </div>
     </div>

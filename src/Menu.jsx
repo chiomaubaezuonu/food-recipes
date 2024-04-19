@@ -9,7 +9,7 @@ const Menu = () => {
                 return (
                     <div className='food-card'>
                        <a href="https://google.com"> <img src={item.img} alt='food-recipes' /></a>
-                        <h4>{item.food}</h4>
+                        <h4 className='food-name'>{item.food}</h4>
                     </div>
                 )
             })}

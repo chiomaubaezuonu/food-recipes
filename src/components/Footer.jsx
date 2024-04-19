@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Footer = () => {
     return (
         <div className='footer'>
-            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon className='fb' icon={faFacebook} />
             <FontAwesomeIcon icon={faTwitter} />
             <FontAwesomeIcon icon={faInstagram} />
         </div>
