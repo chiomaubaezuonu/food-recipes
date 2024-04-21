@@ -17,6 +17,7 @@
   --grey-600: #475569;
   --grey-700: #334155;
   --grey-800: #1e293b;
+  --black: #222;
 
 }
 
@@ -207,4 +208,19 @@ body {
       }
     }
   }
+}
+.footer{
+height: 4rem;
+background-color: var(--black);
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.1rem;
+p{
+  color: white;
+  a{
+    text-decoration: none;
+  }
+}
 }
