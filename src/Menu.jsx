@@ -8,7 +8,7 @@ const Menu = () => {
             {data.map((item) => {
                 return (
                     <div className='food-card'>
-                       <a href="https://google.com"> <img src={item.img} alt='food-recipes' /></a>
+                       <a href="#jollof"> <img src={item.img} alt='food-recipes' /></a>
                         <h4 className='food-name'>{item.food}</h4>
                     </div>
                 )
