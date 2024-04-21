@@ -53,9 +53,9 @@ const Main = () => {
                         {
                             recipeCards.map((card) => (
                                 <div className='card'>
-                                    <img src={card.img} alt='food' />
-                                    <h4>{card.name}</h4>
-                                    <p>{card.prep}</p>
+                                    <img className='card-img' src={card.img} alt='food' />
+                                    <h4 className='card-name'>{card.name}</h4>
+                                    <p className='card-text'>{card.prep}</p>
                                 </div>
                             ))
                         }
