@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.jsx"
 import Hero from './Hero.jsx'
 import Menu from './Menu.jsx'
 import Footer from './components/Footer.jsx'
-import JollofRice from './foodRecipes/JollofRice.jsx'
+
 
 const App = () => {
   return (
@@ -11,7 +11,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <Menu />
-      <JollofRice />
       <Footer />
     </div>
   )

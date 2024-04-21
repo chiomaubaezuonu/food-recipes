@@ -2,11 +2,16 @@
   --background-color: rgb(47, 6, 47);
   --background-light: #fff;
   --shadow-color: rgba(0, 0, 0, 0.2);
-  --primary-color: rgb(255, 0, 86);
+  --primary-500: #645cff;
   --text-color: #0A0A0A;
   --text-light: #575757;
+  --border-radius: 0.25rem;
   --font-size: 1rem;
   --animation-speed: 1;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
+  --transition: 0.3s ease-in-out all;
+  --grey-900: #0f172a;
 }
 
 * {
@@ -20,78 +25,131 @@ body {
   position: relative;
 }
 
-.navbar {
+// .navbar {
+//   display: flex;
+//   height: 4rem;
+//   position: fixed;
+//   top: 0;
+//   z-index: 8;
+//   width: 100%;
+//   background-color: rgb(253, 254, 255);
+//   // background-color: rgb(50, 4, 50);
+//   justify-content: space-between;
+//   box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
+//   align-items: center;
+
+//   .logo {
+//     cursor: pointer;
+//     font-size: 2rem;
+//     color: purple;
+
+//     &:hover {
+//       color: green;
+//       text-decoration: underline;
+
+//       &::before {
+//         transform: scaleX(1);
+//       }
+//     }
+
+//     &.active {
+//       color: var(--primary-color);
+//       font-weight: bold;
+//     }
+//   }
+
+//   .right-nav {
+//     width: 80%;
+//     padding-right: 0rem 6rem;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+
+//   .nav-icons {
+//     display: flex;
+//     justify-content: space-around;
+//     margin-right: 6rem;
+
+//     .nav-icon-link {
+//       // padding-right: 1.7rem;
+//       // padding-left: 1.7rem;
+//       padding: 1rem;
+//       color: purple;
+//       width: 4rem;
+//       margin-right: 1rem;
+
+//       svg {
+//         width: 4.5rem;
+//       }
+
+//       &:hover {
+//         color: orangered;
+//         text-decoration: underline;
+
+//         &::before {
+//           transform: scaleX(1);
+//         }
+//       }
+
+//     }
+//   }
+
+// }
+.nav-container {
   display: flex;
-  height: 4rem;
-  position: fixed;
-  top: 0;
-  z-index: 8;
-  width: 100%;
-  background-color: rgb(253, 254, 255);
-  // background-color: rgb(50, 4, 50);
-  justify-content: space-between;
-  box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
+  padding: 1.8rem 3.2rem;
   align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 90vw;
 
   .logo {
-    cursor: pointer;
-    font-size: 2rem;
-    color: purple;
-
-    &:hover {
-      color: green;
-      text-decoration: underline;
-
-      &::before {
-        transform: scaleX(1);
-      }
-    }
-
-    &.active {
-      color: var(--primary-color);
-      font-weight: bold;
-    }
+    width: 12.5rem;
   }
 
-  .right-nav {
-    width: 80%;
-    padding-right: 0rem 6rem;
+  .navbar-links {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
+    justify-content: space-between;
+    margin-left: 2.1rem;
+    width: 100%;
 
-  .nav-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 6rem;
-
-    .nav-icon-link {
-      // padding-right: 1.7rem;
-      // padding-left: 1.7rem;
-      padding: 1rem;
-      color: purple;
-      width: 4rem;
+    .nav-link {
       margin-right: 1rem;
-
-      svg {
-        width: 4.5rem;
-      }
+      font-size: 1.1rem;
+      color: var(--grey-900);
+      text-decoration: none;
+      background-color: transparent;
+      cursor: pointer;
+      font-family: var(--bodyFont);
 
       &:hover {
-        color: orangered;
-        text-decoration: underline;
-
-        &::before {
-          transform: scaleX(1);
-        }
+        color: #504acc;
       }
+    }
+  }
 
+  .nav-btn {
+    background-color: var(--primary-500);
+    padding: 0.16rem 1.1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    color: #fff;
+    transition: var(--transition);
+    font-size: 1.2rem;
+    font-family: var(--bodyFont);
+
+
+    &:hover {
+      background-color: #3c3799;
     }
   }
 
 }
-.ant-modal-close-icon{
+
+.ant-modal-close-icon {
   color: var(--text-light);
   width: 2rem;
 }
