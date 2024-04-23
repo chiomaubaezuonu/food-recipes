@@ -15,8 +15,11 @@ const Navbar = () => {
           <NavLink to="recipes" className='nav-link'>Recipes</NavLink>
         </div>
         <div className='btn-div'>
-         <NavLink to="/contact"> <button className='nav-btn'>Contact</button></NavLink>
+          <NavLink to="/contact"> <button className='nav-btn'>Contact</button></NavLink>
         </div>
+      </div>
+      <div className="menu-icon-div">
+        <img className='menu' src='./images/hamburger.svg' alt='menu icon' />
       </div>
     </div>
   )

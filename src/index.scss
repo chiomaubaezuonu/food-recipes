@@ -72,6 +72,23 @@ body {
 
 }
 
+.menu-icon-div {
+  display: none;
+  background-color: red;
+  // background-color: var(--primary-500);
+  width: 3rem;
+  padding: 0.2rem 0.26rem;
+  color: white;
+
+  &:hover {
+    background-color: #3c3799;
+  }
+
+  .menu {
+    color: white;
+  }
+}
+
 .main {
   width: 90vw;
   margin: auto;
@@ -428,7 +445,8 @@ body {
       }
     }
   }
-  .about-subtitle{
+
+  .about-subtitle {
     margin-bottom: 1.38rem;
     font-family: var(--headingFont);
     font-weight: 400;
@@ -436,3 +454,13 @@ body {
   }
 }
 
+@media(max-width: 600px) {
+ .nav-container{
+  .navbar-links{
+    display: none;
+  }
+ }
+  .menu-icon-div {
+    display: block;
+  }
+}
