@@ -18,6 +18,7 @@
   --grey-700: #334155;
   --grey-800: #1e293b;
   --black: #222;
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
 }
 
@@ -389,11 +390,14 @@ body {
     justify-content: space-between;
     .contact-writeup{
       // display: flex;
-      width: 50%;
+      width: 40%;
     }
     .form-div{
       width: 50%;
       background-color: #ffffff;
+      border-radius: var(--borderRadius);
+      box-shadow: var(--shadow-2);
+      padding: 2rem 2.5rem;
     }
   }
 }
