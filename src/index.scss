@@ -4,8 +4,6 @@
   --background-light: #fff;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --primary-500: #645cff;
-  --text-color: #0A0A0A;
-  --text-light: #575757;
   --border-radius: 0.25rem;
   --font-size: 1rem;
   --animation-speed: 1;
@@ -14,6 +12,8 @@
   --transition: 0.3s ease-in-out all;
   --grey-900: #0f172a;
   --headingFont: 'Roboto', sans-serif;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
   --grey-500: #64748b;
   --grey-600: #475569;
   --grey-700: #334155;
@@ -465,12 +465,28 @@ a {
 
     .pancake-img {
       width: 29.7rem;
-      height:17rem;
+      height: 17rem;
       object-fit: cover;
     }
 
     .pancake-writeup {
       width: 31.688rem;
+
+      .prep-time-div {
+        svg {
+          &:nth-child(1) {
+            background-color: var(--primary-500);
+            color: white;
+          }
+
+          &:nth-child(2) {
+            color: var(--primary-500);
+          }
+          &:nth-child(3) {
+            color: var(--primary-500);
+          }
+        }
+      }
     }
   }
 
