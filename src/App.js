@@ -6,6 +6,8 @@ import Main from './components/Main.jsx'
 import { Route, Routes } from 'react-router-dom'
 import About from './components/About.jsx'
 import Tags from './components/Tags.jsx'
+import Recipes from './components/Recipes.jsx'
+import Contact from './components/Contact.jsx'
 
 
 const App = () => {
@@ -16,7 +18,8 @@ const App = () => {
         <Route path='/' element={<Main />} />
         <Route path='/about' element={<About />} />
         <Route path='/tags' element={<Tags />} />
-        {/* <Route path='/recipes' element={<Recipes />} /> */}
+        <Route path='/recipes' element={<Recipes />} />
+        <Route path='/contact' element={<Contact />} />
 
       </Routes>
       <Footer />

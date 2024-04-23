@@ -360,13 +360,22 @@ body {
       &:hover {
         background-color: var(--primary-500);
       }
-      h5{
+
+      h5 {
         font-size: 1.25rem;
         padding-bottom: 0.6rem;
       }
-      p{
+
+      p {
         max-width: 40em;
       }
     }
   }
+}
+
+.recipes-page {
+  width: 90vw;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  margin: auto;
 }

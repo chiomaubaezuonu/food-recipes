@@ -25,7 +25,7 @@ const recipeCards = [
 
 const Recipes = () => {
   return (
-    <div>
+    <div className='recipes-page'>
         <div className="recipes-section">
                 <div className="img-text-wrapper">
                     <div className="recipes-list-container">

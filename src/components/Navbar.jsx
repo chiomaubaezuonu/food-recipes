@@ -15,7 +15,7 @@ const Navbar = () => {
           <NavLink to="recipes" className='nav-link'>Recipes</NavLink>
         </div>
         <div className='btn-div'>
-          <button className='nav-btn'>Contact</button>
+         <NavLink to="/contact"> <button className='nav-btn'>Contact</button></NavLink>
         </div>
       </div>
     </div>
