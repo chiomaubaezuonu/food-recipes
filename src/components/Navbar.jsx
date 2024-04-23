@@ -5,14 +5,14 @@ const Navbar = () => {
   return (
     <div className='nav-container'>
       <div className='logo.container'>
-        <img className='logo' src='./images/logo.svg' alt='logo' />
+        <NavLink to='/'> <img className='logo' src='./images/logo.svg' alt='logo' /></NavLink>
       </div>
       <div className='navbar-links'>
         <div className='a-tags'>
-          <a href="#!" className='nav-link'>Home</a>
+          <NavLink to="/" className='nav-link'>Home</NavLink>
           <NavLink to="/about" className='nav-link'>About</NavLink>
-          <a href="#!" className='nav-link'>Tags</a>
-          <a href="#!" className='nav-link'>Recipes</a>
+          <NavLink to="tags" className='nav-link'>Tags</NavLink>
+          <NavLink to="recipes" className='nav-link'>Recipes</NavLink>
         </div>
         <div className='btn-div'>
           <button className='nav-btn'>Contact</button>

@@ -34,9 +34,9 @@ const About = () => {
                     <img className='about-img' src='./images/about-img.jpeg' alt='food' />
                 </div>
             </div>
-            <div className='card-container'>
-                <h4>Look At This Awesomesouce!</h4>
-                <div className="card">
+            <div className='card-content-div'>
+                <h4 className='about-subtitle'>Look At This Awesomesouce!</h4>
+                <div className="card-container">
                     {
                         recipeCards.map((card) => (
                             <div className='card'>
