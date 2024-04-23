@@ -379,3 +379,21 @@ body {
   padding-left: 3.5rem;
   margin: auto;
 }
+.contact-page{
+  width: 90vw;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  margin: auto;
+  .contact-page-contents{
+    display: flex;
+    justify-content: space-between;
+    .contact-writeup{
+      // display: flex;
+      width: 50%;
+    }
+    .form-div{
+      width: 50%;
+      background-color: #ffffff;
+    }
+  }
+}

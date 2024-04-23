@@ -6,14 +6,15 @@ import {
 
 const Contact = () => {
     return (
-        <div>
-            <div className='contact-form'>
-                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, assumenda.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nulla modi dolorem tenetur qui aliquid vero recusandae temporibus animi eaque quam in id, ipsa odio sit beatae dolores! Sed provident vitae fugiat eos ex delectus culpa, voluptatum, vel iste expedita libero, neque possimus ipsum enim qui. Corporis eveniet nihil omnis quam assumenda nulla blanditiis provident ullam exercitationem. Ipsa, ut porro.</p>
-                <div>
+        <div className='contact-page'>
+            <div className='contact-page-contents'>
+                <div className="contact-writeup">
+                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, assumenda.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nulla modi dolorem tenetur qui aliquid vero recusandae temporibus animi eaque quam in id, ipsa odio sit beatae dolores! Sed provident vitae fugiat eos ex delectus culpa, voluptatum, vel iste expedita libero, neque possimus ipsum enim qui. Corporis eveniet nihil omnis quam assumenda nulla blanditiis provident ullam exercitationem. Ipsa, ut porro.</p>
 
 
-
+                </div>
+                <div className='form-div'>
                     <Form>
                         <Form.Item
                             label="Input"
@@ -65,9 +66,8 @@ const Contact = () => {
                             </Button>
                         </Form.Item>
                     </Form>
-                    );
-                    export default App;
                 </div>
+
             </div>
         </div>
     )
