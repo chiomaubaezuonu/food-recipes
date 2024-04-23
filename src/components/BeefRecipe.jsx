@@ -27,7 +27,7 @@ const BeefRecipe = () => {
   return (
     <div className='recipes-page'>
         <div className="recipes-section">
-                <div className="img-text-wrapper" style={{display:'block', width:'100vw'}}>
+                <div className="img-text-wrapper">
                     {/* <div className="recipes-list-container">
                         <h4> Recipes</h4>
                         <div className='recipes-list'>

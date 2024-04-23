@@ -50,17 +50,19 @@ const Main = () => {
                             </ul>
                         </div>
                     </div>
+                    {/* <NavLink to="/pancake"> */}
                     <div className="card-container">
                         {
                             recipeCards.map((card) => (
                                 <div className='card'>
-                                    <img className='card-img' src={card.img} alt='food' />
-                                    <h4 className='card-name'>{card.name}</h4>
-                                    <p className='card-text'>{card.prep}</p>
+                                    <NavLink to="/pancake"> <img className='card-img' src={card.img} alt='food' /></NavLink>
+                                    <NavLink to="/pancake"> <h4 className='card-name'>{card.name}</h4></NavLink>
+                                    <NavLink to="/pancake"><p className='card-text'>{card.prep}</p></NavLink>
                                 </div>
                             ))
                         }
                     </div>
+                    {/* </NavLink> */}
                 </div>
             </div>
         </div>

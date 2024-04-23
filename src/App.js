@@ -9,6 +9,7 @@ import Tags from './components/Tags.jsx'
 import Recipes from './components/Recipes.jsx'
 import Contact from './components/Contact.jsx'
 import BeefRecipe from './components/BeefRecipe.jsx'
+import Pancake from './components/Pancake.jsx'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/recipes' element={<Recipes />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/beefRecipe' element={<BeefRecipe />} />
+        <Route path='/pancake' element={<Pancake />} />
       </Routes>
       <Footer />
     </div>
