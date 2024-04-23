@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 
 const recipeCards = [
     {
@@ -24,31 +23,24 @@ const recipeCards = [
     }
 ]
 
-const Main = () => {
-    return (
-        <div className='main'>
-            {/* Hero Section */}
-            <div className="hero-section">
-                <div className="hero">
-                    <div className="hero-text">
-                        <h1>Simply Recipes</h1>
-                        <h4>No Fluff, Just Recipes</h4>
-                    </div>
-                </div>
-            </div>
-            {/* Recipes Section */}
-            <div className="recipes-section">
-                <div className="img-text-wrapper">
-                    <div className="recipes-list-container">
+const BeefRecipe = () => {
+  return (
+    <div className='recipes-page'>
+        <div className="recipes-section">
+                <div className="img-text-wrapper" style={{display:'block', width:'100vw'}}>
+                    {/* <div className="recipes-list-container">
                         <h4> Recipes</h4>
                         <div className='recipes-list'>
                             <ul>
-                                <NavLink to="/beefRecipe"><li>Beef (1)</li></NavLink>
-                                <NavLink to="/beefRecipe"><li>Breakfast (2)</li></NavLink>
-                                <NavLink to="/beefRecipe"><li>Carrots (3)</li></NavLink>
-                                <NavLink to="/beefRecipe"><li>Food (4)</li></NavLink>
+                                <li>Beef (1)</li>
+                                <li>Breakfast (2)</li>
+                                <li>Carrots (3)</li>
+                                <li>Food (4)</li>
                             </ul>
                         </div>
+                    </div> */}
+                    <div>
+                        <h3>Beef</h3>
                     </div>
                     <div className="card-container">
                         {
@@ -63,8 +55,8 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-        </div>
-    )
+    </div>
+  )
 }
 
-export default Main
+export default BeefRecipe;

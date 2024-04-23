@@ -72,21 +72,12 @@ body {
 
 }
 
-.menu-icon-div {
+.menu {
   display: none;
-  background-color: red;
-  // background-color: var(--primary-500);
-  width: 3rem;
-  padding: 0.2rem 0.26rem;
-  color: white;
-
-  &:hover {
-    background-color: #3c3799;
-  }
-
-  .menu {
-    color: white;
-  }
+cursor: pointer;
+}
+.navbar-links.small{
+  display: none;
 }
 
 .main {
@@ -455,12 +446,20 @@ body {
 }
 
 @media(max-width: 600px) {
- .nav-container{
-  .navbar-links{
-    display: none;
+  .nav-container {
+    .navbar-links{
+      display: none;
+    }
   }
- }
-  .menu-icon-div {
+
+  .menu {
     display: block;
+
   }
+  .navbar-links.small{
+    display: inline-block;
+    flex-direction: column;
+  
+  }
+  
 }

@@ -8,6 +8,7 @@ import About from './components/About.jsx'
 import Tags from './components/Tags.jsx'
 import Recipes from './components/Recipes.jsx'
 import Contact from './components/Contact.jsx'
+import BeefRecipe from './components/BeefRecipe.jsx'
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <Route path='/tags' element={<Tags />} />
         <Route path='/recipes' element={<Recipes />} />
         <Route path='/contact' element={<Contact />} />
-
+        <Route path='/beefRecipe' element={<BeefRecipe />} />
       </Routes>
       <Footer />
     </div>
