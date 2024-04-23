@@ -40,6 +40,7 @@ const Pancake = () => {
             </div>
             <div className="guideline-section">
                 <div className="instructions-section">
+                    <h4>Instructions</h4>
                     <div className="step-one">
                         <p>Step 1</p>
                         <div></div>
@@ -63,7 +64,19 @@ const Pancake = () => {
                     </div>
                 </div>
                 <div className="ingredients-section">
-
+                    <h4>Ingredients</h4>
+                    <div className="ingredient-div">
+                        <p>1 1/2 cups dry pancake mix</p>
+                        <p>1/2 cup flax seed meal</p>
+                        <p> 1 cup skim milk</p>
+                    </div>
+                    <div className="tools-section">
+                        <h4>Tools</h4>
+                        <p>Hand Blender</p>
+                        <p>Large Heavy Pot With Lid</p>
+                        <p>Measuring Spoons</p>
+                        <p>Measuring Cups</p>
+                    </div>
                 </div>
             </div>
         </div>
