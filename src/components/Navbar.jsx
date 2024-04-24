@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
       </div>
       <img onClick={() => setOpenMenuList(!openMenuList)} className='menu' src='./images/hamburger.png' alt='menu icon' />
-      {openMenuList &&
+      {/* {openMenuList &&
         <div className='navbar-links small'>
           <div className='a-tags'>
             <NavLink to="/" className='nav-link'>Home</NavLink>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <NavLink to="/contact"> <button className='nav-btn'>Contact</button></NavLink>
           </div>
         </div>
-      }
+      } */}
     </div>
   )
 }
