@@ -32,10 +32,10 @@ const Recipes = () => {
                         <h4> Recipes</h4>
                         <div className='recipes-list'>
                             <ul>
-                                <li>Beef (1)</li>
-                                <li>Breakfast (2)</li>
-                                <li>Carrots (3)</li>
-                                <li>Food (4)</li>
+                                <NavLink to="/beefRecipe"><li>Beef (1)</li></NavLink>
+                                <NavLink to="/beefRecipe"> <li>Breakfast (2)</li></NavLink>
+                                <NavLink to="/beefRecipe"><li>Carrots (3)</li></NavLink>
+                                <NavLink to="/beefRecipes"><li>Food (4)</li></NavLink>
                             </ul>
                         </div>
                     </div>
