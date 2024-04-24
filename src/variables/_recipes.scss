@@ -86,7 +86,18 @@
     .img-text-wrapper {
       display: flex;
       flex-direction: column-reverse;
-   
+   .recipes-list-container{
+    margin-top: 0rem;
+    margin-bottom: 7rem;
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      width: 92%;
+      li{
+        padding-right: 1rem;
+      }
+    }
+   }
       .card-container {
         display: flex;
         flex-direction: column;
