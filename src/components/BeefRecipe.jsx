@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 const recipeCards = [
     {
@@ -32,14 +33,14 @@ const BeefRecipe = () => {
                     lineHeight: '1.3'
                 }}>Beef</h3>
                 <div className="img-text-wrapper">
-                    <div style={{width: '90vw' }} className="card-container">
+                    <div style={{ width: '90vw' }} className="card-container">
                         {
                             recipeCards.map((card) => (
-                                <div style={{ width: '23rem' }} className='card'>
+                                <NavLink to="/pancake">  <div style={{ width: '23rem' }} className='card'>
                                     <img className='card-img' src={card.img} alt='food' />
                                     <h4 className='card-name'>{card.name}</h4>
                                     <p className='card-text'>{card.prep}</p>
-                                </div>
+                                </div></NavLink>
                             ))
                         }
                     </div>
