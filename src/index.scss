@@ -625,7 +625,8 @@ a {
 
 @media (max-width: 600px) {
   .nav-container {
-    width: 100%;
+    // width: 100%;
+    width: 100vw;
     padding-right: 0.7rem;
     padding-left: 0.7rem;
     display: flex;
@@ -642,6 +643,23 @@ a {
     display: flex;
     flex-direction: column;
     transition: var(--transition);
+
+    .btn-div {
+      display: flex;
+      justify-content: center;
+      border-top: 0.025rem solid var(--grey-500);
+
+      .nav-btn {
+        padding: 0.6rem 1.5rem;
+        color: white;
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        border-radius: var(--border-radius);
+        border: none;
+        background-color: var(--primary-500);
+      }
+    }
   }
 
   .nav-link {
@@ -670,12 +688,21 @@ a {
     .hero-section {
       width: 100%;
     }
+
+    .recipes-section {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+
+
+    }
   }
 
   .footer {
     font-size: 0.85rem;
   }
 
+  // About Section
   .about-container {
     width: 100vw;
     padding-left: 0.7rem;
