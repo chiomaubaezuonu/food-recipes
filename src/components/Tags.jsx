@@ -10,6 +10,10 @@ const tags = [
         recipeCount: "2 recipes"
     },
     {
+        tagName: "Carrots",
+        recipeCount: "3 recipes"
+    },
+    {
         tagName: "Dinner",
         recipeCount: "4 recipes"
     },

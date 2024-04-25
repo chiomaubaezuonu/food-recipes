@@ -354,7 +354,7 @@ a {
       padding: 0.75rem 0;
       margin-right: 1.05rem;
       margin-bottom: 1.8rem;
-      width: 26vw;
+      width: 26.0372vw;
       border-radius: var(--border-radius);
       cursor: pointer;
 
@@ -700,6 +700,19 @@ a {
           width: 100%;
           margin-bottom: 12.4rem;
         }
+      }
+    }
+  }
+  .tags-page{
+    width: 100vw;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    .tags-container{
+      display: block;
+      width: 100%;
+      margin-bottom: 7rem;
+      .tags-card{
+        width: 100%;
       }
     }
   }
