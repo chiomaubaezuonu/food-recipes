@@ -745,32 +745,43 @@ a {
 
     .contact-page-contents {
       display: block;
-      width: 100%;
-      background-color: red;
-      .contact-writeup{
-        width: 100%;
-      }
-      .form-div{
+      width: 100vw;
+
+      .contact-writeup {
         width: 100vw;
-        background-color: pink;
-        padding-left: 0rem;
-        padding-right: 0;
-       
+      }
+
+      .form-div {
+        width: 100%;
+        margin: auto;
+
       }
     }
   }
-  .ant-form-item{
+
+  .ant-form-item {
     width: 100%;
-    background-color: green;
     padding-left: 0rem;
     padding-right: 0rem;
     margin-left: 0;
+
+    .ant-btn-primary {
+      display: block;
+      width: 100%;
+      background-color: lime;
+    }
   }
-  .ant-btn-primary{
-    background-color: purple;
-    width: 100%;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    display: block;
+
+  .card-content-div {
+    .card-container {
+      display: block;
+      width: 100%;
+      margin-bottom: 4rem;
+
+      .card {
+        width: 100%;
+        margin-bottom: 12rem;
+      }
+    }
   }
 }
