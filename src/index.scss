@@ -811,4 +811,33 @@ a {
       }
     }
   }
+
+  .pancake-page {
+    width: 100vw;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    margin: auto;
+
+    .pancake-hero-section {
+      display: block;
+      width: 100%;
+
+      .pancake-img {
+        width: 100%;
+        margin-top: 1.7rem;
+      }
+
+      .pancake-writeup {
+        width: 100%;
+      }
+    }
+    .guideline-section{
+      display: block;
+      width: 100%;
+      .ingredients-section, .instructions-section{
+        width: 100%;
+      }
+    }
+  }
+
 }
