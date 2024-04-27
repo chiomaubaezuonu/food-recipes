@@ -440,13 +440,45 @@ a {
         border: 1px solid var(--grey-200);
       }
 
-      Button {
-        width: 100%;
-        margin: 0;
-        cursor: pointer;
-        letter-spacing: var(--letterSpacing);
-        padding: 0.375rem 2rem;
-      }
+      // Button {
+      //   width: 100%;
+      //   margin: 0;
+      //   cursor: pointer;
+      //   letter-spacing: var(--letterSpacing);
+      //   padding: 0.375rem 2rem;
+      // }
+    }
+
+    .ant-row {
+      display: block;
+      width: 100%;
+    }
+
+    .ant-form-item .ant-form-item-label>label {
+      display: flex;
+      justify-content: left;
+    }
+
+    .ant-form-item {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .ant-form-item .ant-form-item-control-input-content {
+      background-color: #1677ff;
+      width: 100%;
+      border-radius: var(--border-radius);
+    }
+
+    .ant-form-item .ant-form-item-control:first-child {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    .ant-col-16 {
+      width: 100%;
+      max-width: 100%;
     }
   }
 
@@ -631,6 +663,7 @@ a {
     padding-left: 0.7rem;
     display: flex;
     justify-content: space-between;
+    transition: var(--transition);
 
     .navbar-links {
       display: none;
@@ -769,18 +802,18 @@ a {
     width: 100vw;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
+    margin: auto;
 
     .contact-page-contents {
       display: block;
-      width: 100vw;
+      width: 100%;
 
       .contact-writeup {
-        width: 100vw;
+        width: 100%;
       }
 
       .form-div {
-        width: 100%;
-        margin: auto;
+        width: 100%
 
       }
     }
@@ -795,7 +828,6 @@ a {
     .ant-btn-primary {
       display: block;
       width: 100%;
-      background-color: lime;
     }
   }
 
@@ -831,10 +863,13 @@ a {
         width: 100%;
       }
     }
-    .guideline-section{
+
+    .guideline-section {
       display: block;
       width: 100%;
-      .ingredients-section, .instructions-section{
+
+      .ingredients-section,
+      .instructions-section {
         width: 100%;
       }
     }

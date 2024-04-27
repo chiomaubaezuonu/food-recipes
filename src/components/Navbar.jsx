@@ -33,7 +33,7 @@ const Navbar = () => {
             <NavLink to="recipes" className='nav-link' onClick={() => setOpenMenuList(false)}>Recipes</NavLink>
           </div>
           <div className='btn-div'>
-            <NavLink to="/contact"> <button className='nav-btn'>Contact</button></NavLink>
+            <NavLink to="/contact" onClick={() => setOpenMenuList(false)}> <button className='nav-btn'>Contact</button></NavLink>
           </div>
           {/* <div className='btn-div'>
             <NavLink to="/contact"> <button className='nav-btn' onClick={() => setOpenMenuList(false)}>Contact</button></NavLink>
