@@ -28,11 +28,11 @@ const Contact = () => {
             <div className='contact-page-contents'>
                 <div className="contact-writeup">
                     <h3 className='contact-title'>Want To Get In Touch?</h3>
-                    <p>Four dollar toast biodiesel plaid salvia actually pickled banjo bespoke mlkshk intelligentsia edison bulb synth.</p>
+                    <p>Got questions or concerns about our service, send us a message and we will get back to you soonest</p>
 
-                    <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+                    <p>Got any Recipe question or amazin Suggestion?</p>
 
-                    <p>Hashtag swag health goth air plant, raclette listicle fingerstache cold-pressed fanny pack bicycle rights cardigan poke.</p>
+                    <p> Want to say hi?, we'd love to hear from you. Drop us a message, and we'll reach out to you as soon as possible.</p>
 
 
                 </div>
